@@ -10,7 +10,7 @@ public class EvenOrOddSum
 	    while(n!=0){
 	         int rem=n%10;
 	         if(rem%2==0)e+=rem;
-	         o+=rem;
+		    else  o+=rem;
 	        n=n/10;
 	    }
 	    System.out.println("even"+e);
